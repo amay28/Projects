@@ -1,0 +1,80 @@
+.main
+{
+	background-image: linear-gradient(to right, #283048, #859398);
+	background-size: cover;
+	background-repeat: repeat;
+}
+.image
+{
+	height: 300px;
+	width: 300px;
+	border-radius: 25%;
+	float: left;
+	padding:20px;
+	transform: rotate(90deg);
+}
+@font-face
+{
+font-family: my;
+src:url('h.ttf');
+}
+.name
+{
+	float: right;
+	padding-right: 500px;
+	color: #182f54;
+	font-family: my;
+	font-size: 80px;
+}
+.bio
+{
+	padding-top: 150px;
+	font-size: 30px;
+	font-family: tahoma;
+	font-weight: bold;
+}
+.bio1
+{
+	margin-left: 300px;
+	font-size: 30px;
+	font-family: tahoma;
+	font-weight: bold;
+}
+.fleft{
+	float: right;
+	margin-top: 130px;
+}
+ .bounce{ 
+                  height: 45px;
+	margin-top: 10px;
+         }
+ .bounce:hover { 
+                  height: 50px;
+            animation-name: bounce; 
+         }
+ .animated { 
+            animation-duration: 1s; 
+            animation-fill-mode: both; 
+     }
+         
+         @keyframes bounce { 
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+            40% {transform: translateY(-30px);} 
+            60% {transform: translateY(-15px);} 
+         }
+         .yo
+         {
+         	color: #0d377a;
+         	font-weight: bold;
+         	font-size: 25px;
+         	text-align: center;
+         }
+         .yo:hover
+         {
+         	color: #ffffff;
+         }
+         .y
+         {
+         	float:right;
+         	margin-top: 68px;
+         }
